@@ -26,3 +26,6 @@ Apply multimedia elements such as audio and video.
 - Ensure semantic correctness.
 
 Happy Coding! 💻✨
+
+#### ANSWER
+    I have attached an index.html file with the answer (Week 2 Assignment).
