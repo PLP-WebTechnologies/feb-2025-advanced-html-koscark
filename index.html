@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Advanced HTML" />
+  </head>
+  <body>
+    <header>
+      <h1>Advanced HTML</h1>
+      <p>Advanced HTML.</p>
+    </header>
+
+    <main>
+      <!--An ordered list-->
+      <section class="ordered-list">
+        <h2>An Ordered List</h2>
+        <p>An ordered list of examples of programming languages:</p>
+        <div class="list-items">
+          <ol type="i">
+            <li>Python</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Swift</li>
+          </ol>
+        </div>
+      </section>
+
+      <!--An image attachment to an external URL-->
+      <div class="image">
+        <h2>External Image to Pexels</h2>
+        <a href="https://www.pexels.com/photo/batman-logo-1203777/">
+          <img
+            src="https://images.pexels.com/photos/1203777/pexels-photo-1203777.jpeg"
+            alt="An image of a minimal Batman logo."
+            width="25%"
+          />
+        </a>
+      </div>
+
+      <!--A table showing different names, addresses, mobile numbers and emails-->
+      <div class="table-contacts">
+        <h2>A Table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>Mobile</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tom Kamau</td>
+              <td>20-500</td>
+              <td>+254712345678</td>
+              <td>tomkamau20@yahoo.com</td>
+            </tr>
+            <tr>
+              <td>Christine Leki</td>
+              <td>30-500</td>
+              <td>+254798765432</td>
+              <td>christineleki30@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Luke Kioko</td>
+              <td>40-500</td>
+              <td>+254711223344</td>
+              <td>lukekioko40@yahoo.com</td>
+            </tr>
+            <tr>
+              <td>Michael Onyango</td>
+              <td>50-500</td>
+              <td>+254755667788</td>
+              <td>mikeonyango50@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Nicole Dau</td>
+              <td>60-500</td>
+              <td>+254799887766</td>
+              <td>daunicole60@gmail.com</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">Total: 5 contacts</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <!--A registration form-->
+      <div class="registration-form">
+        <form action="" method="post">
+          <h2>Registration Form</h2>
+          <!--Name field-->
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <br />
+          <!--Email field-->
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@yourmail.com"
+            required
+          />
+          <br />
+          <!--Password field-->
+          <label for="password">Password: </label>
+          <input type="password" id="password" name="password" required />
+          <br />
+          <!--Password Confirmation field-->
+          <label for="password-confirm">Confirm Password: </label>
+          <input
+            type="password"
+            id="password-confirm"
+            name="password-confirm"
+            required
+          />
+          <br />
+          <!--Date field-->
+          <label for="date">Date: </label>
+          <input type="date" id="date" name="date" required />
+          <br />
+          <!--Location field-->
+          <label for="location">Location: </label>
+          <select name="location" id="location">
+            <option value="nairobi">Nairobi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="nakuru">Nakuru</option>
+            <option value="kisumu">Kisumu</option>
+          </select>
+          <br />
+          <!--Age field-->
+          <label for="age">Age: </label>
+          <input type="radio" name="age" value="15-20" />15-20
+          <input type="radio" name="age" value="21-25" />21-25
+          <input type="radio" name="age" value="26-30" />26-30
+          <br />
+          <!--Subscription field-->
+          <label for="subscribe-to">Subscribe to: </label>
+          <input
+            type="checkbox"
+            name="subscribe-to"
+            value="newsletter"
+          />Newsletter
+          <input type="checkbox" name="subscribe-to" value="updates" />Updates
+          <input type="checkbox" name="subscribe-to" value="offers" />Offers
+          <br />
+          <!--A submission button-->
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Advanced HTML. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
